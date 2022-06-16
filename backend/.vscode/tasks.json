@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Backend: Run & Expose to LAN",
+			"type": "shell",
+			"command": "py -3.9 -m uvicorn server:app --host 0.0.0.0",
+			"detail": "uvicorn (port: 8000)",
+			"group": {
+				"isDefault": true
+			}
+		}
+	]
+}
